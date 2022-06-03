@@ -1,4 +1,4 @@
-# Count number of digits in a  positive number
+# Count number of digits in a  positive or negative number number
 
 def number_of_digits(n):
     if n<0:
