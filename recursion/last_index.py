@@ -16,3 +16,4 @@ def last_index(array,element,index):
 print(last_index([0,1,2,3,0],0,4))
 
 print(last_index([0,1,2,3],0,3))
+print(last_index([0,1,2,3],13,3))
