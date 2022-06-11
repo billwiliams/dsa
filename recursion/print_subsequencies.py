@@ -5,7 +5,7 @@ def print_subsequence(in_str,out_str):
         print(out_str)
         return
     print_subsequence(in_str[1:],out_str)
-    print_subsequence(in_str[1:],in_str+out_str)
+    print_subsequence(in_str[1:],in_str[0]+out_str)
 
 
 print_subsequence("abc","")
